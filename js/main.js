@@ -93,7 +93,6 @@ const contentLists = document.querySelectorAll('.utils>div .content ');
 
 plusButtons.forEach((item, index) => {
     item.addEventListener('click', () => {
-        console.log('x');
         item.style.display = 'none';
         minusButtons[index].style.display = 'inline-block';
 
